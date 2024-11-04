@@ -42,6 +42,12 @@
   * @}
   */
 
+/**
+ * @brief Exception / Interrupt Handler Function Prototype
+ */
+typedef void(*VECTOR_TABLE_Type)(void);
+
+extern void Default_Handler(void);
 
 /** @addtogroup STM32F4xx_System_Exported_types
   * @{
